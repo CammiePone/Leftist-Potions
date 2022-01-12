@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "leftistpotions",
+	"version": "${version}",
+	"name": "Leftist Potions",
+	"description": "Puts the potion icons back on the left side of the inventory screen.",
+	"authors": [
+		"Cammie"
+	],
+	"contact": {},
+	"license": "Custom License",
+	"icon": "assets/leftistpotions/icon.png",
+	"environment": "*",
+	"mixins": [
+		"leftist-potions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.12.12",
+		"minecraft": "1.18.1"
+	}
+}
